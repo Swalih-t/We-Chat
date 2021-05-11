@@ -1,0 +1,150 @@
+body{
+    padding:0;
+    margin:0;
+    background-color: rgb(56, 52, 52);
+}
+
+.streaming-page{
+    display: flex;
+    height:91vh;
+}
+
+#right-section{
+    border:1px solid white;
+    width: 75vw;
+    height:91vh;
+}
+
+.main-video{
+    overflow-x:scroll;
+    overflow-wrap:inherit;
+    height:80vh;
+    display:inherit;
+}
+
+#video-grid{
+    display: inherit;
+    margin-top:1%;
+	margin-bottom:1%;
+}
+
+#video-grid video{
+    display: block;
+    border: 2px solid white;
+	height: 78vh;
+    width: 75vw;
+}
+
+.main-buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.main-buttons-add{
+    margin-top:10px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+.font-awsome-style{
+    margin-left:11px;
+    margin-bottom: 5px;
+}
+
+#left-section{
+    border: 1px solid wheat;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header h3{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.chat-body{
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+.chat-type{
+    margin-bottom: 15px;
+    margin-left: 12px;
+}
+
+.chat-type input{
+    width: 75%;
+}
+
+ul{
+    color:white;
+    list-style: none;
+}
+
+.show-mobile{
+    color: white;
+    padding:10px;
+}
+
+#alerts h5{
+    color: white;
+    position: relative;
+    left: 21vw;
+    top: 17vh;
+}
+
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+::-webkit-scrollbar:vertical {
+    width: 12px;
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    border: 2px solid #ffffff;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+
+
+/* ended */
+
+@media only screen and (max-width:716px){
+    #right-section{
+        border:1px solid white;
+        width: 100vw;
+        height:91vh;
+    }
+    #left-section{
+        display: none;
+    }
+    #video-grid {
+        height: 70vh;
+        justify-content: center;
+    }
+	#video-grid video{
+		height: 78vh;
+		width: 100vw;
+	}
+    .show-mobile{
+        color: white;
+        padding:10px;
+    }
+}
