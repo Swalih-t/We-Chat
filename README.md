@@ -1,4 +1,8 @@
 # We-Chat
-This is my first Nodejs socket io and peerjs project. Simple video calling app.
-I used peer js for creating web socket connection. 
-And ejs for front end
+Simple video calling app using Node js
+
+### Modules Used
+- Nodejs express, http to create server.
+- Socket.io to make connection between client and server.
+- PeerJs for media call connection
+
