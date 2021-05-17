@@ -1,9 +1,9 @@
 # We-Chat
-Simple video calling app using Node js
 
-### Modules Used
-- Nodejs express, http to create server.
-- Socket.io to make connection between client and server.
-- PeerJs for media call connection
+## [Preview Website](< https://we-chat3000.herokuapp.com >)
 
-##### Website link : https://we-chat3000.herokuapp.com/
+# Description
+Video Chating app built in NodeJs
+- The website has used Express,Peerjs and Socketio
+- Ejs is used for FrontEnd
+- Website link: https://we-chat3000.herokuapp.com
